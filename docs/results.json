@@ -1,0 +1,42 @@
+{
+  "browser": "Chromium 147.0.7727.15, headless",
+  "date": "2026-11-17T08:30:12.253Z",
+  "results": [
+    {
+      "run": "No throttling",
+      "mode": "before",
+      "initialJsKb": 378,
+      "afterScrollJsKb": 378,
+      "afterEditJsKb": 378,
+      "blockingMs": 36,
+      "lcpMs": 260
+    },
+    {
+      "run": "No throttling",
+      "mode": "after",
+      "initialJsKb": 142,
+      "afterScrollJsKb": 252,
+      "afterEditJsKb": 364,
+      "blockingMs": 0,
+      "lcpMs": 60
+    },
+    {
+      "run": "4× CPU slowdown",
+      "mode": "before",
+      "initialJsKb": 378,
+      "afterScrollJsKb": 378,
+      "afterEditJsKb": 378,
+      "blockingMs": 745,
+      "lcpMs": 1112
+    },
+    {
+      "run": "4× CPU slowdown",
+      "mode": "after",
+      "initialJsKb": 142,
+      "afterScrollJsKb": 252,
+      "afterEditJsKb": 364,
+      "blockingMs": 173,
+      "lcpMs": 204
+    }
+  ]
+}
